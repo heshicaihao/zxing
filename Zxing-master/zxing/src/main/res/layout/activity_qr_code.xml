@@ -7,7 +7,7 @@
         android:id="@+id/qr_code_header_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/title_bar_height"
-        android:background="@drawable/activity_top_title_">
+        android:background="@drawable/bg_top_title_three">
 
         <ImageView
             android:id="@+id/head_back"
@@ -35,7 +35,7 @@
         android:layout_below="@id/qr_code_header_bar"
         android:layout_gravity="center" />
 
-    <com.sf.library.qr.view.QrCodeFinderView
+    <com.heshicaihao.zxing.view.QrCodeFinderView
         android:id="@+id/qr_code_view_finder"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -55,11 +55,11 @@
 
         <ImageView
             android:id="@+id/qr_code_iv_flash_light"
-            android:layout_width="@dimen/W120"
-            android:layout_height="@dimen/W120"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:background="@drawable/flashlight_turn_on" />
+            android:background="@mipmap/flashlight_turn_on" />
 
         <TextView
             android:id="@+id/qr_code_tv_flash_light"

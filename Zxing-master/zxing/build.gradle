@@ -27,9 +27,9 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:26.1.0'
 
-    implementation 'com.google.zxing:android-core:3.3.0'
-    implementation 'com.google.zxing:core:3.3.0'
-    implementation 'com.google.zxing:android-integration:3.3.0'
+//    implementation 'com.google.zxing:android-core:3.3.0'
+//    implementation 'com.google.zxing:core:3.3.0'
+//    implementation 'com.google.zxing:android-integration:3.3.0'
 }
 
 //////// 打包发布配置开始 ////////
@@ -41,7 +41,7 @@ ext {
     GITHUB_REPO_PATH = "E:/workspace/zxing.git/"
     PUBLISH_GROUP_ID = 'com.heshicaihao'
     PUBLISH_ARTIFACT_ID = 'zxing'
-    PUBLISH_VERSION = '1.0.0'
+    PUBLISH_VERSION = '2.0.0'
 }
 uploadArchives {
     repositories.mavenDeployer {
