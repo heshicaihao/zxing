@@ -25,6 +25,7 @@ package com.google.zxing.common.reedsolomon;
  *
  * @author Sean Owen
  */
+@SuppressWarnings("ALL")
 final class GenericGFPoly {
 
   private final GenericGF field;

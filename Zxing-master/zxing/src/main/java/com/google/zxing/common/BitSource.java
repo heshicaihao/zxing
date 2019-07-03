@@ -25,6 +25,7 @@ package com.google.zxing.common;
  *
  * @author Sean Owen
  */
+@SuppressWarnings("ALL")
 public final class BitSource {
 
   private final byte[] bytes;

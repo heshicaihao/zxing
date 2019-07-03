@@ -22,6 +22,7 @@ package com.google.zxing;
  *
  * @author Sean Owen
  */
+@SuppressWarnings("JavadocReference")
 public enum ResultMetadataType {
 
   /**
