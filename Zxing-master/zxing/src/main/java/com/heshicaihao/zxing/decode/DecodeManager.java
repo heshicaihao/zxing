@@ -5,7 +5,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
-import com.heshicaihao.zxing.qr.R;
+import com.heshicaihao.zxing.R;
 
 
 /**

@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.heshicaihao.zxing.qr.R;
+import com.heshicaihao.zxing.R;
 import com.heshicaihao.zxing.utils.ScreenUtils;
 
 

@@ -30,7 +30,6 @@ import com.heshicaihao.zxing.camera.CameraManager;
 import com.heshicaihao.zxing.decode.CaptureActivityHandler;
 import com.heshicaihao.zxing.decode.DecodeManager;
 import com.heshicaihao.zxing.decode.InactivityTimer;
-import com.heshicaihao.zxing.qr.R;
 import com.heshicaihao.zxing.utils.ScreenUtils;
 import com.heshicaihao.zxing.view.QrCodeFinderView;
 

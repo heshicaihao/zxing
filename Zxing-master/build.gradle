@@ -4,7 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        mavenCentral()
+        //mavenCentral()
         
     }
     dependencies {
@@ -19,7 +19,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "https://raw.githubusercontent.com/heshicaihao/zxing/master"}
+        //maven { url "https://raw.githubusercontent.com/heshicaihao/zxing/master"}
         
     }
 }

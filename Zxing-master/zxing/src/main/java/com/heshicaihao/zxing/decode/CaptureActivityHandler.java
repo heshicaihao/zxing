@@ -6,7 +6,7 @@ import android.util.Log;
 
 import com.google.zxing.Result;
 import com.heshicaihao.zxing.QrCodeActivity;
-import com.heshicaihao.zxing.qr.R;
+import com.heshicaihao.zxing.R;
 import com.heshicaihao.zxing.camera.CameraManager;
 
 /**
