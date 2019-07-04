@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">QrCodeScanner</string>
     <!--扫一扫-->
     <string name="title_activity_scan_qr_code">扫一扫</string>
     <string name="qc_code_close">关闭</string>

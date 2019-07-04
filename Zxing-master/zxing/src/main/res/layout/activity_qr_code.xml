@@ -7,7 +7,7 @@
         android:id="@+id/qr_code_header_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/title_bar_height"
-        android:background="@drawable/bg_top_title_three">
+        android:background="@drawable/bg_top_title_zxing">
 
         <ImageView
             android:id="@+id/head_back"
