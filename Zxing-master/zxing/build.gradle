@@ -37,7 +37,7 @@ ext {
     GITHUB_REPO_PATH = "E:/workspace/zxing.git/trunk"
     PUBLISH_GROUP_ID = 'com.heshicaihao'
     PUBLISH_ARTIFACT_ID = 'zxing'
-    PUBLISH_VERSION = '1.2.18'
+    PUBLISH_VERSION = '1.2.20'
 }
 uploadArchives {
     repositories.mavenDeployer {
