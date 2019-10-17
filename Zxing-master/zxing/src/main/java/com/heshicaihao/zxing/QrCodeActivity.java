@@ -189,7 +189,7 @@ public class QrCodeActivity extends AppCompatActivity implements Callback, OnCli
             }
         } catch (IOException e) {
             // 基本不会出现相机不存在的情况
-            Toast.makeText(this, getString(R.string.qr_code_camera_not_found), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.hsc_zxing_camera_not_found), Toast.LENGTH_SHORT).show();
             finish();
             return;
         } catch (RuntimeException re) {
@@ -252,7 +252,7 @@ public class QrCodeActivity extends AppCompatActivity implements Callback, OnCli
         try {
             CameraManager.get().setFlashLight(true);
             mNeedFlashLightOpen = false;
-            mTvFlashLightText.setText(getString(R.string.qr_code_close_flash_light));
+            mTvFlashLightText.setText(getString(R.string.hsc_zxing_close_flash_light));
             mIvFlashLight.setBackgroundResource(R.mipmap.flashlight_turn_off);
         } catch (Exception e) {
             e.printStackTrace();
@@ -263,7 +263,7 @@ public class QrCodeActivity extends AppCompatActivity implements Callback, OnCli
         try {
             CameraManager.get().setFlashLight(false);
             mNeedFlashLightOpen = true;
-            mTvFlashLightText.setText(getString(R.string.qr_code_open_flash_light));
+            mTvFlashLightText.setText(getString(R.string.hsc_zxing_open_flash_light));
             mIvFlashLight.setBackgroundResource(R.mipmap.flashlight_turn_on);
         } catch (Exception e) {
             e.printStackTrace();

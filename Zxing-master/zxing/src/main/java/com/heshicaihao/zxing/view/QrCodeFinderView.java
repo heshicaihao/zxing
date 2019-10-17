@@ -161,7 +161,7 @@ public final class QrCodeFinderView extends RelativeLayout {
         int margin = 40;
         mPaint.setColor(mTextColor);
         mPaint.setTextSize(getResources().getDimension(R.dimen.text_size_13sp));
-        String text = getResources().getString(R.string.qr_code_auto_scan_notification);
+        String text = getResources().getString(R.string.hsc_zxing_auto_scan_notification);
         Paint.FontMetrics fontMetrics = mPaint.getFontMetrics();
         float fontTotalHeight = fontMetrics.bottom - fontMetrics.top;
         float offY = fontTotalHeight / 2 - fontMetrics.bottom;
